@@ -1,0 +1,52 @@
+/* BEM */
+
+/* variables */
+$color-primario:#f1f1f1;
+$color-secundario: #262626;
+$font-size: 16px;
+$font-principal: "Montserrat", sans-serif;
+
+$medidas-sm : 640px;
+$medidas-md : 840px;
+$medidas-xl : 1800px;
+
+/* Estilos Base */
+
+body{
+    background: $color-primario;
+    // font-size: $font-size;
+    color: $color-secundario;
+    font-family: $font-principal;
+    text-align: center;
+}
+
+/* Secciones */
+
+section{
+    padding: 1rem;
+    margin: 1rem;
+    background: $color-primario;
+    color: $color-secundario;
+    font-family: $font-principal;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* Header */
+
+.header{
+    background: $color-primario;
+    color: $color-secundario;
+    padding: 1rem;
+    margin: 1rem;
+    font-family: $font-principal;
+    // font-size: 1.5rem;
+    text-align: center;
+}
+
+fonder{
+    background: $color-primario;
+    color: $color-secundario;
+}
+
+/* Animaciones */
